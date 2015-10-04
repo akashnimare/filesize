@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 'use strict';
-var fs = require('./');
+var fsize = require('./');
 
-fs(function (err, stderr, stdout) {
+fsize(function (err, stderr, stdout) {
 	if (!err && !stderr) {
 		console.log(stdout);
 	}

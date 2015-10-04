@@ -1,7 +1,7 @@
 {
-  "name": "fs",
+  "name": "fsize",
   "version": "1.0.0",
-  "description": "Puts your device on sleep mode.",
+  "description": "Size of files",
   "license": "MIT",
   "repository": "akashnimare/filesize",
   "author": {
