@@ -1,0 +1,33 @@
+{
+  "name": "fs",
+  "version": "1.0.0",
+  "description": "Puts your device on sleep mode.",
+  "license": "MIT",
+  "repository": "akashnimare/filesize",
+  "author": {
+    "name": "Akash Nimare",
+    "email": "svnitakash@gmail.com",
+    "url": "akashnimare.in"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "filesize",
+    "size"
+  ],
+  "dependencies": {
+  	"shelljs":"0.5.3",
+    "is-linux": "^1.0.1",
+    "is-osx": "^1.0.2",
+    "is-windows": "^0.1.0"
+  }
+
+}
