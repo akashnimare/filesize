@@ -1,10 +1,10 @@
 ## fsize
-Know the file size  of a dir 
+Know the size of a file 
 
 ## Installation
 npm install --global fsize
 
 ## Usage
 
-> fsize
+> fsize filename
 

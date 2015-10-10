@@ -1,7 +1,7 @@
 {
   "name": "fsize",
-  "version": "1.0.0",
-  "description": "Size of files",
+  "version": "1.1.1",
+  "description": "Size of a file",
   "license": "MIT",
   "repository": "akashnimare/filesize",
   "author": {
@@ -24,7 +24,7 @@
     "size"
   ],
   "dependencies": {
-  	"shelljs":"0.5.3",
+    "shelljs":"0.5.3",
     "is-linux": "^1.0.1",
     "is-osx": "^1.0.2",
     "is-windows": "^0.1.0"
