@@ -9,14 +9,17 @@ var isLinux = require('is-linux'),
 module.exports = function () {
 
 	if (isOsx()) {
-		shell.exec("ls -Ssh " + process.argv[2]);
+		var output=shell.exec('ls -shh ' + process.argv[2] + '', {silent:true}).output;
+		console.log(output.split(' ')[0])
 	} else if (isLinux()) {
-		shell.exec("ls -Ssh " + process.argv[2]);
+		var output=shell.exec('ls -shh ' + process.argv[2] + '', {silent:true}).output;
+		console.log(output.split(' ')[0]);	
 	} else if (isWindows()) {
+		var output=shell.exec('dir -shh ' + process.argv[2] + '', {silent:true}).output;
 		shell.exec("dir -Ssh " + process.argv[2]);
+		console.log(output.split(' ')[0]);
 	} else {
 		throw new Error('Unknown OS!');
 	}
 
 };
-

@@ -1,6 +1,6 @@
 {
   "name": "fsize",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Size of a file",
   "license": "MIT",
   "repository": "akashnimare/filesize",
